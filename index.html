@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=800 height=1550 tabindex="-1" style="width: 800px; height: 1550px; background: #231F20"></canvas>
-    <script src="Build/archived_v1_compressed_gzip.loader.js"></script>
+    <script src="Build/archived_v1_compressed_1024.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/archived_v1_compressed_gzip.data.gz",
-        frameworkUrl: "Build/archived_v1_compressed_gzip.framework.js.gz",
-        codeUrl: "Build/archived_v1_compressed_gzip.wasm.gz",
+        dataUrl: "Build/archived_v1_compressed_1024.data",
+        frameworkUrl: "Build/archived_v1_compressed_1024.framework.js",
+        codeUrl: "Build/archived_v1_compressed_1024.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "archived",
